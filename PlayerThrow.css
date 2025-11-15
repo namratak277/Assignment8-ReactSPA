@@ -1,0 +1,41 @@
+.player-throw {
+  text-align: center;
+}
+
+.player-throw h2 {
+  margin-bottom: 1rem;
+  color: #1e3a8a;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.throw-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.throw-options img {
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.throw-options img:hover {
+  transform: translateY(-5px) scale(1.1);
+  border-color: #3b82f6;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+.throw-options img.selected {
+  border-color: #2563eb;
+  transform: translateY(-5px) scale(1.15);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.6);
+  background: linear-gradient(145deg, #dbeafe, #bfdbfe);
+}
