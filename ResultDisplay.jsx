@@ -1,4 +1,4 @@
-import "./ResultDisplay.css";
+import "./css/ResultDisplay.css";
 
 const ResultDisplay = ({ result }) => {
   if (!result) return null;

@@ -1,4 +1,4 @@
-import "./PlayerThrow.css";
+import "./css/PlayerThrow.css";
 
 const PlayerThrow = ({ setPlayerChoice, selected }) => {
   const options = [

@@ -1,4 +1,4 @@
-import "./ComputerThrow.css";
+import "./css/ComputerThrow.css";
 
 const ComputerThrow = ({ choice, isShuffling }) => {
   const images = {

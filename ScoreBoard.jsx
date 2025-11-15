@@ -1,4 +1,4 @@
-import "./ScoreBoard.css";
+import "./css/ScoreBoard.css";
 
 const ScoreBoard = ({ score }) => {
   return (

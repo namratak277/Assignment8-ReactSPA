@@ -3,7 +3,7 @@ import PlayerThrow from "./PlayerThrow";
 import ComputerThrow from "./ComputerThrow";
 import ResultDisplay from "./ResultDisplay";
 import ScoreBoard from "./ScoreBoard";
-import "./App.css";
+import "./css/App.css";
 
 const options = ["rock", "paper", "scissors"];
 
@@ -40,7 +40,6 @@ export default function App() {
         ties: prev.ties + (result === "tie" ? 1 : 0),
       }));
 
-      // Reset player selection after round completes
       setTimeout(() => {
         setPlayer("");
       }, 1500);
